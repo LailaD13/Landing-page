@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61% );
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-opcoes {
+    display: flex;
+    gap: 32px;
+
+}
+
+
+.cabecalho-opcoes-item {
+    font-family: "Allerta Stencil", sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.cabecalho-opcoes-item:hover {
+    font-size: 1rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 1%;
+  height: 0.05px;
+  background: linear-gradient(to right, #0d0303, #dee6e6);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+
+  
+
+
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFF2E7;
+
+}
+
+.conteudo-principal-escrito-resumo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+    margin-top: 48px;
+    
+    
+}
+
+.conteudo-principal-imagem {
+    height: 260px;
+    border-radius: 260px;
+    width: 260px;
+
+}
