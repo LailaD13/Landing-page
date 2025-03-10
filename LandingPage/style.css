@@ -137,7 +137,7 @@ body {
     font-family: "Allerta Stencil", sans-serif;
     font-weight: 300;
     font-size: 50px;
-    color: #FFF2E7;
+    color:  #ECD6C4;    
     padding: 4rem;
 
 }
@@ -145,11 +145,11 @@ body {
 .conteudo-principal-escrito-resumo {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    font-size: 20px;
-    color: #ECD6C4;
-    margin-top: 30px;
-    
-    
+    font-size: 18px;
+    color:#181213;
+    margin-top: 20px;
+    font-weight: bold;
+     
     
 }
 
@@ -159,5 +159,85 @@ body {
     width: 400px;
     padding: 2rem;
     
+}
+
+.curriculo {
+    height: 45px;
+    font-size: 16px;
+    font-family: "Allerta Stencil", sans-serif;
+    color: #FFF2E7;
+    justify-content: space-evenly;
 
 }
+
+.Experiencias {
+    color: #ECD6C4;
+    
+    
+} 
+
+.Experiencias ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    
+
+}
+
+.titulo {
+    color: #ECD6C4 ;
+    font-family: "Allerta Stencil", sans-serif;
+    font-size: 28px;
+    margin-top: 30px;
+
+}
+
+.Experiencias ul li{
+    color: #181213;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    
+
+}
+
+.Experiencias ul li:hover {
+    color: #b67e72;
+    transition: .4s;                
+    cursor: default;
+}
+
+:is(.Experiencias, .Projetos) {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61% );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+footer > div {
+    display:  flex ;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+h2 {
+    color: #ECD6C4; 
+    
+}
+
